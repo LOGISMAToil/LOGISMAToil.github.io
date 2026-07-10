@@ -807,3 +807,102 @@ MISIÓN Y VISIÓN
     line-height:1.8;
 
 }
+/*==========================
+FOOTER
+==========================*/
+
+.footer{
+
+    background:#001c54;
+
+    color:white;
+
+    padding:80px 8% 30px;
+
+    margin-top:120px;
+
+}
+
+.footer-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:50px;
+
+}
+
+.footer-logo{
+
+    width:180px;
+
+    margin-bottom:20px;
+
+}
+
+.footer-box h3{
+
+    color:#ffffff;
+
+    margin-bottom:20px;
+
+    font-size:24px;
+
+}
+
+.footer-box p{
+
+    color:#d8d8d8;
+
+    line-height:1.9;
+
+    margin-bottom:10px;
+
+}
+
+.footer-btn{
+
+    display:inline-block;
+
+    margin-top:15px;
+
+    background:#ff6a00;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:15px 28px;
+
+    border-radius:40px;
+
+    font-weight:600;
+
+    transition:.35s;
+
+}
+
+.footer-btn:hover{
+
+    background:white;
+
+    color:#001c54;
+
+}
+
+.footer-copy{
+
+    margin-top:60px;
+
+    padding-top:30px;
+
+    border-top:1px solid rgba(255,255,255,.15);
+
+    text-align:center;
+
+    color:#cfcfcf;
+
+    font-size:15px;
+
+}
