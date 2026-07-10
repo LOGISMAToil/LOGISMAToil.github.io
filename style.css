@@ -1004,12 +1004,22 @@ VENTAJAS
 
     align-items:center;
 
-    font-size:42px;
+    font-size:40px;
 
     transition:.35s;
 
 }
+.adv-icon i{
 
+    transition:.35s ease;
+
+}
+
+.adv-card:hover .adv-icon i{
+
+    transform:scale(1.15);
+
+}
 .adv-card:hover .adv-icon{
 
     transform:rotate(10deg) scale(1.15);
