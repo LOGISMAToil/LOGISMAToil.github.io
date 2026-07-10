@@ -548,3 +548,12 @@ transform:rotate(90deg);
 }
 
 }
+.step-image{
+
+    width:140px;
+
+    display:block;
+
+    margin:20px auto;
+
+}
