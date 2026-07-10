@@ -1,5 +1,283 @@
-body{
+/* ==========================
+   CONFIGURACIÓN GENERAL
+========================== */
+
+*{
     margin:0;
-    font-family:Arial, sans-serif;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#ffffff;
+    color:#1b1b1b;
+}
+
+/* ==========================
+   MENÚ
+========================== */
+
+header{
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
     background:white;
+    box-shadow:0 2px 15px rgba(0,0,0,.08);
+    z-index:1000;
+}
+
+nav{
+    width:90%;
+    max-width:1300px;
+    margin:auto;
+    height:90px;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.logo{
+    height:70px;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:35px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#001c54;
+    font-weight:500;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#ff6a00;
+}
+
+/* ==========================
+   BOTÓN
+========================== */
+
+.btn-nav{
+
+    background:#ff6a00;
+    color:white;
+    text-decoration:none;
+
+    padding:12px 28px;
+
+    border-radius:40px;
+
+    transition:.3s;
+}
+
+.btn-nav:hover{
+
+    background:#001c54;
+
+}
+
+/* ==========================
+   HERO
+========================== */
+
+.hero{
+
+    width:90%;
+    max-width:1300px;
+
+    margin:auto;
+
+    min-height:100vh;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:60px;
+
+    padding-top:120px;
+
+}
+
+.hero-text{
+
+    flex:1;
+
+}
+
+.hero-text h1{
+
+    font-size:62px;
+
+    line-height:1.1;
+
+    color:#001c54;
+
+}
+
+.hero-text p{
+
+    margin:30px 0;
+
+    font-size:20px;
+
+    line-height:1.8;
+
+    color:#555;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    gap:20px;
+
+}
+
+.btn-primary{
+
+    background:#ff6a00;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:16px 35px;
+
+    border-radius:40px;
+
+    transition:.3s;
+
+}
+
+.btn-primary:hover{
+
+    background:#001c54;
+
+}
+
+.btn-secondary{
+
+    border:2px solid #001c54;
+
+    color:#001c54;
+
+    text-decoration:none;
+
+    padding:16px 35px;
+
+    border-radius:40px;
+
+    transition:.3s;
+
+}
+
+.btn-secondary:hover{
+
+    background:#001c54;
+
+    color:white;
+
+}
+
+/* ==========================
+   IMAGEN
+========================== */
+
+.hero-image{
+
+    flex:1;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.placeholder{
+
+    width:520px;
+
+    height:420px;
+
+    border:3px dashed #d6d6d6;
+
+    border-radius:25px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+    color:#888;
+
+    font-size:28px;
+
+}
+
+.placeholder p{
+
+    margin-top:20px;
+
+    font-size:18px;
+
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media(max-width:900px){
+
+.hero{
+
+flex-direction:column;
+
+text-align:center;
+
+padding-top:150px;
+
+}
+
+.hero-text h1{
+
+font-size:42px;
+
+}
+
+.hero-buttons{
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+}
+
+.placeholder{
+
+width:100%;
+
+height:320px;
+
+}
+
+nav ul{
+
+display:none;
+
+}
+
 }
