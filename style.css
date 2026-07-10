@@ -624,3 +624,76 @@ transform:rotate(90deg);
     line-height:1.8;
 
 }
+/*==========================
+NOSOTROS
+==========================*/
+
+.about{
+
+    padding:120px 8%;
+
+    background:#ffffff;
+
+}
+
+.about-container{
+
+    max-width:1200px;
+
+    margin:auto;
+
+}
+
+.section-tag{
+
+    display:inline-block;
+
+    background:#eef5ff;
+
+    color:#001c54;
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    margin-bottom:20px;
+
+}
+
+.about h2{
+
+    font-size:48px;
+
+    color:#001c54;
+
+    margin-bottom:35px;
+
+}
+
+.about h3{
+
+    color:#001c54;
+
+    margin-top:35px;
+
+    margin-bottom:15px;
+
+    font-size:28px;
+
+}
+
+.about p{
+
+    color:#666;
+
+    line-height:1.9;
+
+    font-size:18px;
+
+    max-width:950px;
+
+}
