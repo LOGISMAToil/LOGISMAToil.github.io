@@ -907,3 +907,18 @@ FOOTER
     font-size:15px;
 
 }
+.footer-box a{
+
+    color:#d8d8d8;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.footer-box a:hover{
+
+    color:#ff6a00;
+
+}
