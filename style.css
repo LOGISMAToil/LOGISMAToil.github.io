@@ -740,3 +740,70 @@ NOSOTROS
     box-shadow:0 12px 25px rgba(0,0,0,.10);
 
 }
+/*==========================
+MISIÓN Y VISIÓN
+==========================*/
+
+.mission-vision{
+
+    margin-top:60px;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:35px;
+
+}
+
+.mv-card{
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:22px;
+
+    text-align:center;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    transition:.35s ease;
+
+    border-top:6px solid #ff6a00;
+
+}
+
+.mv-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 25px 45px rgba(0,0,0,.15);
+
+}
+
+.mv-icon{
+
+    font-size:60px;
+
+    margin-bottom:20px;
+
+}
+
+.mv-card h3{
+
+    color:#001c54;
+
+    margin-bottom:18px;
+
+    font-size:28px;
+
+}
+
+.mv-card p{
+
+    color:#666;
+
+    line-height:1.8;
+
+}
