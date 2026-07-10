@@ -697,3 +697,46 @@ NOSOTROS
     max-width:950px;
 
 }
+.about-services{
+
+    list-style:none;
+
+    margin-top:20px;
+
+    margin-bottom:45px;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:18px;
+
+}
+
+.about-services li{
+
+    background:#f8fafc;
+
+    padding:18px 22px;
+
+    border-radius:15px;
+
+    border-left:5px solid #ff6a00;
+
+    color:#555;
+
+    line-height:1.7;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.05);
+
+    transition:.3s;
+
+}
+
+.about-services li:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 12px 25px rgba(0,0,0,.10);
+
+}
